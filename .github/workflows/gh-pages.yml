@@ -16,11 +16,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build output
       run: |
-        mkdir www
-        cp ./CNAME ./www/CNAME
         make docs
-        cp output/* ./www/*
-        cp ./www/developer-experience-spec.html ./www/index.html
+        mkdir www && cp ./CNAME ./www/CNAME && cp output/* ./www/* && cp ./www/developer-experience-spec.html ./www/index.html   
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
