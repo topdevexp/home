@@ -1,6 +1,7 @@
 DOCKER ?= $(shell command -v docker 2>/dev/null)
 PANDOC ?= $(shell command -v pandoc 2>/dev/null)
 
+PUBLISH_DIRNAME	?= www/
 OUTPUT_DIRNAME	?= output/
 DOC_FILENAME	?= developer-experience-spec
 
@@ -47,5 +48,12 @@ $(OUTPUT_DIRNAME)/$(DOC_FILENAME).html: header.html $(DOC_FILES) $(FIGURE_FILES)
 	ls -sh $(realpath $@)
 endif
 
+publish:
+	mkdir -p $(PUBLISH_DIRNAME)/ && \
+	cp ./CNAME ./$(PUBLISH_DIRNAME)/CNAME \
+	cp ./$(OUTPUT_DIRNAME)/* ./$(PUBLISH_DIRNAME)/*
+	cp ./www/$(DOC_FILENAME).html ./$(PUBLISH_DIRNAME)/index.html
+
 .PHONY: \
-	docs
+	docs \
+	publish
