@@ -11,13 +11,16 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: www
 
     steps:
     - uses: actions/checkout@v2
     - name: Build output
       run: |
         make docs
-        mkdir -p ./www 
         cp ./CNAME ./www/CNAME 
         cp ./output/* ./www/*
         cp ./www/developer-experience-spec.html ./www/index.html   
