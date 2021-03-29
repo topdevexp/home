@@ -7,4 +7,4 @@
 
 - [介绍](spec.md)
 - [活动](weekly-catchup.md)
-    - [什么是开发者美好的一天](weekly-catchup.md#good-day)
+    - [开发者美好的一天](#美好的一天)
