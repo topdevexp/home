@@ -8,7 +8,6 @@ PANDOC_CONTAINER ?= docker.io/vbatts/pandoc:1.17.0.3-2.fc25.x86_64
 ifeq "$(strip $(PANDOC))" ''
 	ifneq "$(strip $(DOCKER))" ''
 		PANDOC = $(DOCKER) run \
-			-it \
 			--rm \
 			-v $(shell pwd)/:/input/:ro \
 			-v $(shell pwd)/$(OUTPUT_DIRNAME)/:/$(OUTPUT_DIRNAME)/ \
