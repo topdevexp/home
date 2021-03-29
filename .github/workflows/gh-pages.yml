@@ -17,7 +17,10 @@ jobs:
     - name: Build output
       run: |
         make docs
-        mkdir www && cp ./CNAME ./www/CNAME && cp output/* ./www/* && cp ./www/developer-experience-spec.html ./www/index.html   
+        mkdir -p ./www 
+        cp ./CNAME ./www/CNAME 
+        cp ./output/* ./www/*
+        cp ./www/developer-experience-spec.html ./www/index.html   
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
