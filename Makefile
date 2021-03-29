@@ -51,8 +51,7 @@ endif
 publish:
 	mkdir -p $(PUBLISH_DIRNAME)/ && \
 	cp ./CNAME ./$(PUBLISH_DIRNAME)/CNAME \
-	cp ./$(OUTPUT_DIRNAME)/* ./$(PUBLISH_DIRNAME)/*
-	cp ./www/$(DOC_FILENAME).html ./$(PUBLISH_DIRNAME)/index.html
+	cp ./$(OUTPUT_DIRNAME)/$(DOC_FILENAME).html ./$(PUBLISH_DIRNAME)/index.html
 
 .PHONY: \
 	docs \
