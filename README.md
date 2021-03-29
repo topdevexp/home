@@ -1,6 +1,6 @@
-# 可能是最关心开发者体验的社区
+# DPC - Developer Performance Community可能是最关心开发者体验的社区
 
-## DPC - Developer Performance Community 电梯演讲
+## 电梯演讲
 
 通过《DPC开发者完美体验指南》，以及指南说明和所推荐的工具，将会使DPC社区成员可以自助提升自己的开发效率和体验。
 
