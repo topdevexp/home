@@ -50,7 +50,7 @@ endif
 
 publish:
 	mkdir -p $(PUBLISH_DIRNAME)/ && \
-	cp ./CNAME ./$(PUBLISH_DIRNAME)/CNAME \
+	cp ./CNAME ./$(PUBLISH_DIRNAME)/CNAME && \
 	cp ./$(OUTPUT_DIRNAME)/$(DOC_FILENAME).html ./$(PUBLISH_DIRNAME)/index.html
 
 .PHONY: \
