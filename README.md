@@ -20,3 +20,4 @@
 [dora website]: https://www.devops-research.com/research.html
 
 
+![batman armory](assets/images/batman-armory.jpeg)
