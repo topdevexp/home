@@ -61,15 +61,11 @@
 那作为程序员，知识的创造者。我们的兵器库应该长什么样，好让我们开心高效地度过每一天。
 
 经过讨论，我们先来个alpha版：
-
-- [介绍](spec.md)
-- [活动](weekly-catchup.md)
-  - [开发者美好的一天](#美好的一天)
-  
-- 将要进入迭代开发的业务需求清晰明确
-  - TODO
-- 迭代零的准备工作都很充分
-  - Project Kickoff
+ 
+* 将要进入迭代开发的业务需求清晰明确
+  * TODO
+* 迭代零的准备工作都很充分
+  * Project Kickoff
     * Tech stack choice
     * Architecture specification
     * CI/CD Design
