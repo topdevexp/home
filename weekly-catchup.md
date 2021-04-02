@@ -44,3 +44,62 @@
 * 良好地反馈和放松将有助于迎接另一个美好的一天
 
 对于客户而言，有用户体验，用户体验好了，自然愿意花更多的时间在咱们的服务上。对于开发者，开发体验变好了，那又会怎么影响研发效率和质量呢。
+
+## 程序员的兵器库
+
+成为超级英雄可能是每一个人的梦想，从现在这么火的漫威宇宙和DC宇宙就能看出一二。
+
+有一个用来暖场的小游戏，那就是如果每个人都可以选择拥有一种超能力，你最想拥有的超能力是什么。有一个答案让我印象深刻。那就是 - 蝙蝠侠。大家可能很容易想
+到原因。因为闪电侠与蝙蝠侠有一场精典的对白。
+
+闪电侠：请问你的超能力是什么？
+蝙蝠侠：有钱。
+
+太精典，以至于深入人心。可这有什么好印象深刻的呢，多么朴实无华的理由！之所以让我印象深刻，当然不是想成为蝙蝠侠，而是后面说的 - 因为蝙蝠侠的兵器库实在
+太炫酷了。后面了解到这位小伙伴有收藏的爱好。
+
+那作为程序员，知识的创造者。我们的兵器库应该长什么样，好让我们开心高效地度过每一天。
+
+经过讨论，我们先来个alpha版：
+
+* 将要进入迭代开发的业务需求清晰明确
+  * TODO
+* 迭代零的准备工作都很充分
+  * Project Kickoff
+  * Tech stack choice
+  * Architecture specification
+  * CI/CD Design
+* 15分钟站会
+  * Facilitate Skill
+  * User Journey
+* 新挑选或正在做的卡描述清晰
+  * Card INVEST principle
+  * Risk Management
+  * Communication
+* 自动化流水线健康全绿
+  * TODO
+* 拉取最新代码没有冲突，本地自动化测试高效
+  * TODO
+* 开发过程中技术难度适中
+  * TDD
+  * Pair
+  * Evolving Architecture
+* 频繁提交代码，并快速获得有效反馈
+  * Git Flow
+  * Clean Code
+  * Refactor
+* Desk Check一次通过
+  * Test Strategy
+  * Customer Focus
+  * Pipeline
+* 快速上线
+  * TODO
+* 好好享受下午茶
+  * TODO
+* 30分钟Code Review高效
+  * Lint Practices
+  * Security
+  * Clean Architecture
+* 成就满满、开开心心的回家
+  * TODO
+  
