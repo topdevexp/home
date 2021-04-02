@@ -63,9 +63,9 @@
 经过讨论，我们先来个alpha版：
  
 * 将要进入迭代开发的业务需求清晰明确
-  * TODO
+    * TODO
 * 迭代零的准备工作都很充分
-  * Project Kickoff
+    * Project Kickoff
     * Tech stack choice
     * Architecture specification
     * CI/CD Design
