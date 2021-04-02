@@ -62,44 +62,48 @@
 
 经过讨论，我们先来个alpha版：
 
-* 将要进入迭代开发的业务需求清晰明确
-  * TODO
-* 迭代零的准备工作都很充分
-  * Project Kickoff
-  * Tech stack choice
-  * Architecture specification
-  * CI/CD Design
+- [介绍](spec.md)
+- [活动](weekly-catchup.md)
+  - [开发者美好的一天](#美好的一天)
+  
+- 将要进入迭代开发的业务需求清晰明确
+  - TODO
+- 迭代零的准备工作都很充分
+  - Project Kickoff
+    * Tech stack choice
+    * Architecture specification
+    * CI/CD Design
 * 15分钟站会
-  * Facilitate Skill
-  * User Journey
+    * Facilitate Skill
+    * User Journey
 * 新挑选或正在做的卡描述清晰
-  * Card INVEST principle
-  * Risk Management
-  * Communication
+    * Card INVEST principle
+    * Risk Management
+    * Communication
 * 自动化流水线健康全绿
-  * TODO
+    * TODO
 * 拉取最新代码没有冲突，本地自动化测试高效
-  * TODO
+    * TODO
 * 开发过程中技术难度适中
-  * TDD
-  * Pair
-  * Evolving Architecture
+    * TDD
+    * Pair
+    * Evolving Architecture
 * 频繁提交代码，并快速获得有效反馈
-  * Git Flow
-  * Clean Code
-  * Refactor
+    * Git Flow
+    * Clean Code
+    * Refactor
 * Desk Check一次通过
-  * Test Strategy
-  * Customer Focus
-  * Pipeline
+    * Test Strategy
+    * Customer Focus
+    * Pipeline
 * 快速上线
-  * TODO
+    * TODO
 * 好好享受下午茶
-  * TODO
+    * TODO
 * 30分钟Code Review高效
-  * Lint Practices
-  * Security
-  * Clean Architecture
+    * Lint Practices
+    * Security
+    * Clean Architecture
 * 成就满满、开开心心的回家
-  * TODO
+    * TODO
   
