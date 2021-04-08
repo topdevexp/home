@@ -24,6 +24,7 @@ endif
 DOC_FILES := \
 	spec.md \
 	code-review.md \
+	ci-cd.md \
 	weekly-catchup.md
 
 
