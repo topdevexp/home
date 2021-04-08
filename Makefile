@@ -23,6 +23,7 @@ endif
 # These docs are in an order that determines how they show up in the PDF/HTML docs.
 DOC_FILES := \
 	spec.md \
+	code-review.md \
 	weekly-catchup.md
 
 
