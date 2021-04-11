@@ -28,6 +28,3 @@ Pair写了一天的代码，大家找时间聚在一起，一起分享一下今�
 
 [pmd]: https://en.wikipedia.org/wiki/PMD_(software)
 [lint]: https://en.wikipedia.org/wiki/Lint_(software)
-
-
-  
