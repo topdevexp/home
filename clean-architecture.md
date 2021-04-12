@@ -1,3 +1,4 @@
+# 整洁架构
 ## 我们所追求的整洁架构
 
 * 独立的框架，不依赖某个具体的库
@@ -7,5 +8,15 @@
 * 独立的外部代理，对你是否使用MVC或DCI并不关心
 * 不同的领域之间业务规则之间侵略性最小，最好没有依赖
 
+## Why？
+为了效率！
 
-参考: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+当一个项目从集成架构到代码结构，如果做到了整洁清晰，那么无论运维人员还是开发人员，
+都能够快速理解项目结构，并且投入到日常的工作开发中。
+
+
+## 如何才能够使架构整洁？
+
+TODO
+
+参考：[clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html "Title").
