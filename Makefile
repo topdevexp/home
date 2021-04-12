@@ -26,6 +26,7 @@ DOC_FILES := \
 	practices.md \
 	code-review.md \
 	ci-cd.md \
+	clean-architecture.md \
 	weekly-catchup.md
 
 
