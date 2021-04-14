@@ -14,6 +14,7 @@
 - [介绍](spec.md)
 - [实践](practices.md)
     - [代码走查](#代码回顾)
+    - [CI/CD](ci-cd.md)
     - [整洁架构](clean-architecture-v1.md)
 - [活动](weekly-catchup.md)
     - [开发者美好的一天](#美好的一天)
