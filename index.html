@@ -89,6 +89,69 @@
 <h2>如何才能够使架构整洁？</h2>
 <p>TODO</p>
 <p>参考：<a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html" title="Title">clean architecture</a>.</p>
+<h1>风险管理</h1>
+<h2>我们追求的风险管理实践</h2>
+<ul>
+<li>有明确的流程处理线上事故，团队全员参与，而不是仅有Dev。</li>
+<li>聚焦于解决问题而不是追责。</li>
+<li>有明确的事故评级方案，并按照综合评级安排修复计划，而不是一味紧急抢修。</li>
+<li>Dev有权拒绝为低优先级的事故加班。</li>
+<li>严重事故处理之后有 Retro，产出的 &quot;Lesson Learned&quot; 需要整理成文档分享给其他团队。</li>
+<li>定期更新威胁建模，并积极执行产出的 Actions。</li>
+</ul>
+<h3>为什么要有风险管理</h3>
+<h3>怎么做才算风险管理</h3>
+<ul>
+<li>线上事故处理流程（Draft）</li>
+<li>Downtime 小于30分钟：<br />
+事后发送处理报告和时间线给 Stakeholder 和受到影响的用户。</li>
+<li>Downtime 大于等于30分钟：<br />
+立即发送 Outage 信息给用户，并告知当前的处理进度和预计恢复的时间。<br />
+事后处理同上。</li>
+<li>线上事故评级方案（Draft）</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>维度/优先级</th>
+<th>高</th>
+<th>中</th>
+<th>低</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>影响的功能</td>
+<td>核心功能</td>
+<td>特定功能</td>
+<td>边缘功能</td>
+</tr>
+<tr class="even">
+<td>影响的范围</td>
+<td>核心用户群或所有用户</td>
+<td>特定用户</td>
+<td>极少数用户</td>
+</tr>
+<tr class="odd">
+<td>影响的后果</td>
+<td>敏感数据被破坏或泄露</td>
+<td>普通数据被破坏或泄露</td>
+<td>边缘数据被破坏或泄露</td>
+</tr>
+<tr class="even">
+<td>复现成功率</td>
+<td>重复特定步骤可100%复现</td>
+<td>特定条件复现（如时间地点）</td>
+<td>复现条件极难达成</td>
+</tr>
+<tr class="odd">
+<td>复现复杂度</td>
+<td>业务流程中的正常操作</td>
+<td>普通用户的异常操作</td>
+<td>有技术背景的用户的异常操作</td>
+</tr>
+</tbody>
+</table>
 <h1>美好的一天</h1>
 <h2>前提</h2>
 <ul>
