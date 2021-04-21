@@ -27,6 +27,7 @@ DOC_FILES := \
 	code-review.md \
 	ci-cd.md \
 	clean-architecture-v1.md \
+	risk-management.md \
 	weekly-catchup.md
 
 
