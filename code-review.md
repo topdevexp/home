@@ -29,5 +29,19 @@ Pair写了一天的代码，大家找时间聚在一起，一起分享一下今�
 * 尊重他人的劳动成果，接受合理的建议，并采取行动
 * 适量补充上下文，用于帮助理解代码实现逻辑
 
+### 实践
+
+代码走查作为软件质量保证当中最为重要的一步，需要团队集体参与。
+但是团队一旦超过一定规模，代码走查就会容易失去控制，从而失去了节奏，起不到应有的效果。
+那么我们如何来约定团队的走查步骤呢？我们到底要走查什么呢？
+结构！结构！结构！
+代码的结构才是走查的重中之重。
+技术难点可以交给前期的spike，命名规范可以团队约定，但是结构一旦混乱，后期迭代和维护的成本将会失控。
+另外，一些常见的最佳实践和代码风格，我们可以交给一些工具来帮我们实践。
+[Kotlin Example][Kotlin Example Github] 是一个将Lint和PMD工具应用于Kotlin项目的实践。
+Lint工具可以帮助我们规范代码风格，PMD可以发现常见的编程缺陷，例如未使用的变量，空的catch块，不必要的对象创建等等。
+在项目中设置git hooks，每次commit之前触发lint和pmd的检查，能够帮助团队规范代码的风格，让代码走查更加专注于结构的讨论。
+
+[Kotlin Example Github]: https://github.com/topdevexp/practices
 [pmd]: https://en.wikipedia.org/wiki/PMD_(software)
 [lint]: https://en.wikipedia.org/wiki/Lint_(software)
