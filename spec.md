@@ -24,9 +24,25 @@ DORA从"公司" - "团队" - "组织"的角度分析了研发效能，DPC则希�
 ### 目录
 
 - [介绍](spec.md)
+- [开心一天](gooday/index.md)
+    - [业务分析](gooday/business-analysis.md)
+    - [迭代零](gooday/iteration-zero.md)
+    - [站会](gooday/standup.md)
+    - [卡](gooday/card.md)
+    - [本地开发](gooday/local-development.md)
+    - [解决方案](gooday/tech-solution.md)
+    - [持续集成持续交付](gooday/ci-cd.md)
+    - [验收](gooday/desk-check.md)
+    - [DevOps](gooday/devops.md)
+    - [团队文化](gooday/team-culture.md)
+    - [团队赋能](gooday/team-enablement.md)
+    - [美好生活](gooday/good-life.md)
 - [实践](practices.md)
     - [代码走查](#代码回顾)
-    - [CI/CD](ci-cd.md)
     - [整洁架构](clean-architecture-v1.md)
 - [活动](weekly-catchup.md)
     - [开发者美好的一天](#美好的一天)
+
+
+[dora website]: https://www.devops-research.com/research.html
+
