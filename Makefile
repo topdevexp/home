@@ -23,6 +23,19 @@ endif
 # These docs are in an order that determines how they show up in the PDF/HTML docs.
 DOC_FILES := \
 	spec.md \
+	gooday/index.md \
+    gooday/business-analysis.md \
+	gooday/iteration-zero.md \
+	gooday/standup.md \
+	gooday/card.md \
+	gooday/local-development.md \
+	gooday/tech-solution.md \
+	gooday/ci-cd.md \
+	gooday/desk-check.md \
+	gooday/devops.md \
+	gooday/team-culture.md \
+	gooday/team-enablement.md \
+	gooday/good-life.md \
 	practices.md \
 	code-review.md \
 	ci-cd.md \
