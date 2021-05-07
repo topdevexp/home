@@ -27,6 +27,7 @@ DORA从"公司" - "团队" - "组织"的角度分析了研发效能，DPC则希�
 - [开心一天](gooday/index.md)
     - [业务分析](gooday/business-analysis.md)
     - [迭代零](gooday/iteration-zero.md)
+        - [架构](capability/architecture.md)
     - [站会](gooday/standup.md)
     - [卡](gooday/card.md)
     - [本地开发](gooday/local-development.md)

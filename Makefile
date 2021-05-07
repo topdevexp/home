@@ -24,8 +24,9 @@ endif
 DOC_FILES := \
 	spec.md \
 	gooday/index.md \
-    	gooday/business-analysis.md \
+	gooday/business-analysis.md \
 	gooday/iteration-zero.md \
+	capability/architecture.md \
 	gooday/standup.md \
 	gooday/card.md \
 	gooday/local-development.md \
