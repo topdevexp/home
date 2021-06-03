@@ -28,6 +28,7 @@ DOC_FILES := \
 	gooday/iteration-zero.md \
 	capability/architecture.md \
 	capability/cloud-native-architecture.md \
+	capability/api-gateway.md \
 	gooday/standup.md \
 	gooday/card.md \
 	gooday/local-development.md \

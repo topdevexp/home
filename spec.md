@@ -29,6 +29,7 @@ DORA从"公司" - "团队" - "组织"的角度分析了研发效能，DPC则希�
     - [迭代零](gooday/iteration-zero.md)
         - [架构](capability/architecture.md)
         - [云原生架构](capability/cloud-native-architecture.md)
+        - [API和服务设计](capability/api-gateway.md)
     - [站会](gooday/standup.md)
     - [卡](gooday/card.md)
     - [本地开发](gooday/local-development.md)
